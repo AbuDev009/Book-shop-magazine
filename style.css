@@ -1,0 +1,85 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+    .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.238);
+    }
+    .search{
+    border: Ipx solid rgba(0, 0, 0, 0.3);
+    padding: брх 10px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    }
+    .search input{
+    border: none;
+    outline: none;
+    }
+    .head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('./assets/Home\ back.svg' );
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 650px;
+    }
+    .head hl{
+    font-family: 'RozhaOne';
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    font-size: 72px;
+    text-shadow: 7px 7px 7px rgba(0, 0, 0, 0.3);
+    }
+    .categories{
+    background: rgba(238, 238, 238, 1);
+    padding: 150px 0;
+    text-align: center;
+    }
+    .categories hl{
+    font-family: 'RozhaOne';
+    font-size: 50px;
+    font-weight: 400;
+    }
+    .cards{
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    }
+    .card{
+    background-color: #fff;
+    border-radius: 1брх;
+    width: 340px;
+    height: 223px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    text-align: center;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+    }
+    .card p{
+    font-weight: bold;
+    font-family: 'RozhaOne';
+    }
+    footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px 0;
+    background: rgba(196, 196, 196, 1);
+    }
+    
